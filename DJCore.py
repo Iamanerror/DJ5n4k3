@@ -5,7 +5,7 @@ from discord.ext import commands
 bot = commands.AutoShardedBot(case_insensitive=True, command_prefix=commands.when_mentioned_or(os.getenv('p.')))
 bot.remove_command('help')
 bot.initials = ('modules.misc', 'modules.music', 'modules.handler', 'modules.owner')
-bot.owner = int(os.getenv('OWNER'))
+bot.owner = int(os.getenv('455500545587675156'))
 bot.color = int(os.getenv('COLOR'), 16)
 
 @bot.check
